@@ -1,0 +1,48 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #b5307e;
+	background-image: linear-gradient(225deg, #b5307e 0%, #936cb5 50%, #174a6d 100%);
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+button {
+	margin: 10px 10px;
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+}
+
+span {
+	display: none;
+}
+
+.text {
+	margin-left: 10px;
+	color: rgb(248, 248, 255);
+}
+
+#result {
+	color: rgb(255, 215, 0);
+}
+
+.stone_img {
+	background-image: url('./rock.png');
+	background-size: cover;
+}
+
+.paper_img {
+	background-image: url('./paper.png');
+	background-size: cover;
+}
+
+.scissors_img {
+	background-image: url('./scissors.png');
+	background-size: cover;
+}
